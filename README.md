@@ -5,7 +5,7 @@ Example usage:
 
     Workshop ws = new Workshop(
                 4, //Worker count (max simultaneous active thread count)
-                10 //Max tasks per worker (thread)
+                10 //Max tasks in the queue per worker (thread)
         );
     //Adding task to queue    
     ws.execute(() -> {
